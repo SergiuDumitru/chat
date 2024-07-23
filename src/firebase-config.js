@@ -12,15 +12,7 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyC2a6vTGtZCzCtlvMWh7-BkkwtwbqEEPUM",
-  authDomain: "chat-3ac11.firebaseapp.com",
-  projectId: "chat-3ac11",
-  storageBucket: "chat-3ac11.appspot.com",
-  messagingSenderId: "301485714270",
-  appId: "1:301485714270:web:945ed5c8ccb8fb66147dcf",
-  measurementId: "G-JXVHY0P419"
-};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
